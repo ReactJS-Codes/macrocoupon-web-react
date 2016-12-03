@@ -35,6 +35,9 @@ module.exports = {
             }
         ],
     },
+    resolve: {
+      extensions: ['', '.js', '.jsx']
+    },
     devServer: {
         contentBase: __dirname + '/public',
     },
